@@ -4,9 +4,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 def load_data(dataset="For 07-2019 to 06-2023"):
     if dataset == "For 07-2019 to 06-2023":
-        filepath = "G:/pathsetter/all_files_in_one02.csv"
+        filepath = "all_files_in_one02.csv"
     else:
-        filepath = "G:/pathsetter/all_files_in_one01.csv"
+        filepath = "all_files_in_one01.csv"
     df = pd.read_csv(filepath)
     
 
