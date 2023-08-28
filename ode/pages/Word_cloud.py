@@ -5,7 +5,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 st.sidebar.title("Navigation")
 def word_cloud_app():
-    dp = pd.read_csv("G:/pathsetter/reviews_with_center.csv")
+    dp = pd.read_csv("reviews_with_center.csv")
 
     def preprocess_review(review):
         words = review.split()
