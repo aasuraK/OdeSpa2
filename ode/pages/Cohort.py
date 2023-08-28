@@ -3,9 +3,9 @@ import streamlit as st
 import seaborn as sb
 import matplotlib.pyplot as plt
 st.sidebar.title("Navigation")
-filepath1 = r"G:/pathsetter/all_files_in_one01.csv"
+filepath1 = r"all_files_in_one01.csv"
 data1 = pd.read_csv(filepath1)
-filepath2= r"G:/pathsetter/all_files_in_one02.csv"
+filepath2= r"all_files_in_one02.csv"
 data2 = pd.read_csv(filepath2)
 #data2.drop(columns=['Unnamed: 19','Unnamed: 20'],inplace=True)
 data=pd.concat([data1,data2])
