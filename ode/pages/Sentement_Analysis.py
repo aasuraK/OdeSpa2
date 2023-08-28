@@ -5,7 +5,7 @@ import seaborn as sns
 from textblob import TextBlob
 
 #reading the datra
-filepath = r"G:/pathsetter/reviews_with_center.csv"
+filepath = r"reviews_with_center.csv"
 data = pd.read_csv(filepath)
 #some cleaning  data
 data['CenterNew']=data['Center'].apply(lambda s: s.split("_")[0])
